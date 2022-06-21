@@ -52,7 +52,7 @@ body{
     /* --------------SKILLS, HOBBIES Y FORMACION---------------------*/ 
     .skills{
         width: auto;
-        height: 500px;        
+        height: 900px;        
         padding: 40px 300px 80px 230px;
         margin-top: 120px;
     }
@@ -88,7 +88,7 @@ body{
 
     .hobbies{
         width: auto;
-        height: 800px;        
+        height: 600px;        
         padding: 40px 300px 80px 300px;
     }
         .hobbies li{
