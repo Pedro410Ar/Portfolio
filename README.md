@@ -1,7 +1,6 @@
 # Portfolio
-Portfolio personal 
+
 <img width=1000 height=450 src="https://github.com/Pedro410Ar/One-FrontEnd/blob/master/img/portfolio.png">
-https://github.com/Pedro410Ar/One-FrontEnd/blob/master/img/portfolio.png
 
 
 En este proyecto se trabaja un Portfolio personal en el marco del Programa ONE de Alura. 
