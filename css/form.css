@@ -1,0 +1,47 @@
+/* Formulario*/  
+    
+ form {
+    padding: 40px 0 40px 400px;
+    margin: 40px 0;           
+}
+
+form label{
+    display:block;
+    font-size: 16px;
+    margin: 0 0 10px;              
+}
+
+form input, form textarea {
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;    
+}
+
+.boton-enviar:disabled{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background:#199ec7;
+    border-radius: 10px;      
+    cursor: not-allowed;
+}
+
+.boton-enviar:enabled{
+    width: 20%;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background:#199ec7;
+    border-radius: 10px;
+    
+    transition: 1s all;
+}
+
+.boton-enviar:enabled:hover {
+    background: #137492;        
+    transform: scale(1.1) rotate(2deg);
+    
+}
+

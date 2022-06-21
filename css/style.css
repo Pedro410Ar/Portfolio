@@ -1,0 +1,306 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    background: linear-gradient(298.63deg, rgba(63, 194, 172, 0.53) 43.16%, rgba(30, 122, 184, 0.4) 92.58%, rgba(53, 190, 218, 0.53));
+}
+
+
+
+/* ------------HEADER, LOGO Y MENU---------*/
+
+.headerPrincipal .container{    
+    font-weight: bold;
+    height: 160px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.titulo{
+    margin-right: 1200px;
+}
+
+.coheteTitulo:hover{
+    transform: scale(1.4) rotate(20deg);  
+}
+
+.nav{
+    position: absolute;
+    top: 60px;
+    right: 0;     
+}
+
+    .nav li{
+        display: inline;
+        margin: 0px 0px 0px 25px;
+        padding: 10px;        
+    }
+    
+    .nav a{        
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .nav a:hover{
+        color: blue;                 
+   }
+
+
+    /* --------------SKILLS, HOBBIES Y FORMACION---------------------*/ 
+    .skills{
+        width: auto;
+        height: 500px;        
+        padding: 40px 300px 80px 230px;
+        margin-top: 120px;
+    }
+
+    #titulo-skills{
+        width: auto;              
+        padding: 40px 70px 10px 70px;
+    }
+
+    .skills li{
+        display: inline-block;
+        text-align: center;
+        width: 250px;
+        vertical-align: top;
+        margin: 15px 1.5%;
+        padding: 20px 10px;
+        box-sizing: border-box;
+
+        border-color: rgb(134, 141, 140);
+        border-width: 4px;
+        border-style: solid;
+    
+        border-radius: 10px;
+
+        transition: 1s all;
+    }
+
+    .skills li:hover{
+        background: #9ea5a2;
+        transform: scale(1.1) rotate(1.2deg);
+    }
+
+
+    .hobbies{
+        width: 900px;
+        height: 400px;        
+        padding: 40px 300px 80px 300px;
+    }
+        .hobbies li{
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        vertical-align: top;
+        margin: 15px 1.5%;
+        padding: 20px 10px;
+        box-sizing: border-box;
+
+        border-color: rgb(46, 160, 107);
+        border-width: 4px;
+        border-style: solid;
+    
+        border-radius: 10px;
+
+        transition: 1s all;
+    }
+
+    .hobbies li:hover{
+        background: #3bac73;
+        transform: scale(1.1) rotate(1.2deg);
+    }
+
+    .formacion{
+        width: auto;
+        height: 730px;        
+        padding: 80px 300px 80px 300px;
+    }
+
+    .formacion li{
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        vertical-align: top;
+        margin: 15px 1.5%;
+        padding: 20px 10px;
+        box-sizing: border-box;
+
+        border-color: rgb(38, 48, 189);
+        border-width: 4px;
+        border-style: solid;
+    
+        border-radius: 10px;
+
+        transition: 1s all;
+    }
+
+    .formacion li:hover{
+        background: #4da5c0;
+        transform: scale(1.1) rotate(1.2deg);
+    }
+
+    
+
+
+    /*---------------Tarjetas----------------*/
+
+    .proyectos{
+        width: auto;
+        height: auto;
+        margin: 0px;
+        padding: 70px;
+        clear: right;           
+    }
+
+    .proyectos h1{
+        width: auto;
+        height: auto;
+        padding: 40px 250px 10px 250px;
+    }
+    
+    .proyectos li{
+        display: inline-block;
+        text-align: center;
+        width: 42%;
+        vertical-align: top;
+        margin: 15px 1.5%;
+        margin-left: 80px;
+        padding: 20px 40px;
+        box-sizing: border-box;
+    
+        border-color: #424040;
+        border-width: 4px;
+        border-style: solid;
+    
+        border-radius: 10px;
+
+        transition: 1s all;
+    }
+        
+    .proyectos li:hover{
+        background: #4da5c0;
+        transform: scale(1.1) rotate(1.2deg);
+    }
+    
+    .imagen-proyecto{
+        border-radius: 20px;
+    }
+
+
+
+   
+    /*----------------Footer-------------------*/
+
+    footer{
+        text-align: center;
+        padding: 40px;               
+    }
+    
+    .copyright, .desarrollo{
+        color: black;
+        font-size: 16px;
+        margin: 20px;
+    }
+
+
+    /*---------------------RESPONSIVE----------------------------*/
+ 
+@media(max-width: 378px) {
+
+    .headerPrincipal .container{
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;      
+        justify-content: space-between;
+    }
+
+    .titulo{
+        margin-left: 130px;
+    }    
+
+    .nav{
+        width: 50%;
+        flex-direction: column;
+        margin-top: 150px;               
+    }
+
+    .skills{
+        height: 1600px;
+        
+        margin-left: 33%;
+        padding: 0px;
+    }
+
+    .hobbies{
+        height: 800px;  
+        width: 300px;
+        margin-left: 33%;
+        padding: 0px;
+    }
+
+    .hobbies .li{   
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+    }
+
+    .formacion{
+        height: 2400px;
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        justify-content: space-between;
+        margin-left: 33%;
+        padding: 0px;
+    }
+
+    .formacion li{
+        padding: 20px 140px;       
+     
+    }
+
+    .proyectos{
+        height: 8600px;
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;      
+        justify-content: space-between;
+        margin-left: 10%;
+        padding: 0px;
+    }
+
+    .proyectos li{
+        padding: 20px 200px;
+    }
+
+    .formulario{
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;      
+        justify-content: space-between;
+        margin-left: 35%;
+        padding: 0px;
+    }
+   
+    footer{
+        text-align: center;
+        padding: 40px;               
+    }
+    
+    .copyright, .desarrollo{
+        color: black;
+        font-size: 16px;
+        margin: 20px;
+    }
+
+
+}
+

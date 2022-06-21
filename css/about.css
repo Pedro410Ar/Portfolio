@@ -1,0 +1,80 @@
+#about{
+    width: 100%;
+    height: 500px;        
+    padding: 20px 0px 60px 0px;  
+    
+}
+
+.about h1{
+    margin-left: 320px;
+    margin-top: 200px;
+}
+
+.about p{
+    width: 540px;
+    font-size: 20px;    
+    margin: 55px 0px 50px 320px;
+    word-spacing: 5px;  
+}
+
+.foto-perfil{
+    width: 250px;
+    height: 300px;
+    float: right;   
+    border-radius: 120px;
+
+    border-color: rgb(134, 141, 140);
+    border-width: 4px;
+    border-style: solid;          
+}
+
+.texto-perfil p{
+    line-height: 130%;
+}
+
+.firma{
+  float: right;
+  margin-right: 650px;    
+}
+
+.redes {    
+    float: right;
+    width: 150px;
+    height: 300px;
+    margin-right: 160px;      
+    margin-top: 5px;   
+    
+    transition: 30s all;       
+}
+
+.redes li:hover{    
+    transform: scale(1.2);
+}
+
+
+
+@media(max-width: 378px) {
+
+    .texto-perfil{        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about p{
+        width: 500px;
+        font-size: 16px;    
+        margin: 0px;
+         
+    }
+
+    .redes {    
+        
+            height: 400px;
+            margin-right: 0px;      
+            margin-top: 0px;   
+             
+    }
+
+
+}
+
