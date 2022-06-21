@@ -87,8 +87,8 @@ body{
 
 
     .hobbies{
-        width: 900px;
-        height: 400px;        
+        width: auto;
+        height: 800px;        
         padding: 40px 300px 80px 300px;
     }
         .hobbies li{
